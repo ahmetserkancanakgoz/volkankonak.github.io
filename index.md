@@ -1,37 +1,97 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-You can use the [editor on GitHub](https://github.com/ahmetserkancanakgoz/volkankonak.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-### Markdown
+        <title>Volkan Konak</title>
+    </head>
+    <body>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
 
-```markdown
-Syntax highlighted code block
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">VOLKAN KONAK</a>
 
-# Header 1
-## Header 2
-### Header 3
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
 
-- Bulleted
-- List
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">Merhaba ben Volkan Konak</h1>
+                        <h2 class="home__subtitle">Tüm bunları yaparken <br> Bursa Spora destek olabilirsin.</h2>
+                    </div>
+    
+                    <img src="assets/img/home.jpg" alt="" class="home__img">
+                </div>
+            </section>
+            
+            <!--========== ABOUT ==========-->
+            <section class="about section bd-container" id="about">
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial">Hakkımda</span>
+                        <h2 class="section-title about__initial">En iyisi benim ben !!</h2>
+                        <a href="https://www.youtube.com/watch?v=boJ2XEebdCY" class="button">Bu Ben :d</a>
+                    </div>
 
-1. Numbered
-2. List
+                    <img src="assets/img/125011.jpg" alt="" class="about__img">
+                </div>
+            </section>
 
-**Bold** and _Italic_ and `Code` text
+            <!--========== MENU ==========-->
+            <section class="menu section bd-container" id="menu">
+                <span class="section-subtitle">Special</span>
+                <h2 class="section-title">Bugün ne yiyeceğizz !!</h2>
 
-[Link](url) and ![Image](src)
-```
+                <div class="menu__container bd-grid">
+                    <div class="menu__content">
+                        <img src="assets/img/123hamsi.jpg" alt="" class="menu__img">
+                        <h3 class="menu__name">Hamsi Tava</h3>
+                        <span class="menu__detail">Mükemmel Lezzet</span>
+                        <span class="menu__preci">₺50</span>
+                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+                    <div class="menu__content">
+                        <img src="assets/img/acılı.jpg" alt="" class="menu__img">
+                        <h3 class="menu__name">Acılı Volkan Konak</h3>
+                        <span class="menu__detail">special köri soslu volkan konak</span>
+                        <span class="menu__preci">paha biçilemez</span>
+                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                    
+                    <div class="menu__content">
+                        <img src="assets/img/mumbar.jpg" alt="" class="menu__img">
+                        <h3 class="menu__name">Mumbar Dolması</h3>
+                        <span class="menu__detail">Halat gibi</span>
+                        <span class="menu__preci">₺25</span>
+                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                </div>
+            </section>
 
-### Jekyll Themes
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ahmetserkancanakgoz/volkankonak.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
